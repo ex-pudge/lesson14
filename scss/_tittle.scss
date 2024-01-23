@@ -1,0 +1,70 @@
+.mountain{
+    padding-top: 223px;
+    background-position: 0 746px;
+
+
+    &-all{
+        background-position-x:50px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 785px;
+        gap: 337px;
+    }
+
+    &-social{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding-left: 50px;
+
+        &-vertical{
+            writing-mode: vertical-lr;
+            font-size: 18px;
+            margin-left: 0;
+        }
+    }
+
+    &-hr{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        &-div{
+            width: 80px;
+        }
+
+        &-orange{
+            width: 72px;
+        }
+    }
+
+    &-p{
+        color:#FBD784;
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+    }
+
+    &-abouthp{
+        display: flex;
+        flex-direction: column;
+        gap: 37px;
+    
+        h1{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: 'Chronicle Display', sans-serif;
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 100px;
+    text-transform: capitalize;
+    &:hover {
+        -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+      -webkit-mask-size: 200%;
+      animation: wave 2s infinite;
+        }
+    }
+}
+}

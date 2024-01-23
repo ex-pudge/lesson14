@@ -1,0 +1,22 @@
+.header{
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    &-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    &-list{
+        font-size: 18px;
+    }
+    
+    .material-symbols-outlined{
+        width: 35px;
+    }
+ }
