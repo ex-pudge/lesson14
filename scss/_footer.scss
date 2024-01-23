@@ -1,0 +1,43 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 200px 229px 120px 229px;
+
+    &-logo{
+        display: flex;
+        flex-direction: column;
+
+        &-p{
+            max-width: 303px;
+            font-size: 18px;
+            line-height: 32px; 
+        }
+        
+        &-policy{
+            opacity: 0.5;
+            padding-top: 122px;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 32px;
+        }
+    }
+
+    h3{
+        margin: 0 auto;
+        padding-bottom: 8px;
+        color: #FBD784;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    &-list{
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+
+&-a{
+    padding-top: 15px;
+}
+    }
+}

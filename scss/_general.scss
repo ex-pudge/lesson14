@@ -1,0 +1,35 @@
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;;
+   
+}
+
+ul{
+    list-style: none;
+}
+
+ a{
+    text-decoration: none;
+    color: #FFF;
+ }
+
+ body{
+    width: 1920px;
+    background: #0B1D26;
+    font-weight: 700;
+    font-family: Gilroy;
+    color: #FFF;
+
+ }
+
+.All{
+    background: url(../imgs/BG\ Content.svg) 0 1205px no-repeat, 
+    url(../imgs/human.png) 0 864px no-repeat,
+     url(../imgs/mountains.png) 0 568px no-repeat, 
+     url(../imgs/clouds.jpg) 0 0px no-repeat;
+
+}
+ .material-symbols-outlined{
+    margin-left: 16px;
+}
